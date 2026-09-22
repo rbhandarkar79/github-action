@@ -1,0 +1,12 @@
+name: hello word manual pipeline
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  hello-world:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: print hello world
+       run: echo "HELLO-WORLD"
